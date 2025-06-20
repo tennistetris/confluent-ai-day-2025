@@ -8,6 +8,7 @@ This directory contains scripts for publishing images to Kafka and consuming the
 - `ocr_consumer.py` - Consumes images, calls OCR endpoint, and publishes parsed text
 - `text_consumer.py` - Consumes parsed text from the `parsed-ocr-data` topic  
 - `test_ocr_consumer.py` - Test script with mock OCR endpoint
+- `sagemaker-dpl/deploy.py` - Contains code for sagemaker deployment
 
 ## Setup
 
